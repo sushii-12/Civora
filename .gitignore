@@ -1,26 +1,32 @@
-﻿# Environment variables and secrets
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Python virtual environments
 .venv/
 venv/
 env/
 
-# Python cache
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
+# Node.js
+node_modules/
+dist/
+.npm/
+*.tsbuildinfo
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 
-# Operating system
+# macOS
 .DS_Store
-Thumbs.db
 
 # Logs
 *.log
